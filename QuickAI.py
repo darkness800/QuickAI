@@ -1255,7 +1255,7 @@ async def privacy_policy(ctx):
 
     c.execute('SELECT language FROM settings WHERE guild_id = ?', (ctx.guild.id,))
     result = c.fetchone()
-    language = result[0] if result else 'Russian'  # По умолчанию используем русский язык
+    language = result[0] if result else 'Russian' 
 
     if language == 'English':
         title = '<:privacy:1185672481663635456> Privacy Policy'
