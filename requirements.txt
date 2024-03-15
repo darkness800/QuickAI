@@ -1,0 +1,9 @@
+asyncio
+disnake
+disnake-ext-commands
+openai
+aiohttp
+sqlite3
+pytz
+deep-translator
+requests
